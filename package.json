@@ -1,0 +1,29 @@
+{
+  "name": "frontend-code-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "@volvo-cars/css": "^1.11.1",
+    "@volvo-cars/react-headless": "^0.13.0",
+    "@volvo-cars/react-icons": "^0.20.0",
+    "next": "^12.2.0",
+    "prettier": "^3.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.6",
+    "typescript": "^4.7.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^12.1.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^12.0.0",
+    "jest": "^28.0.0"
+  }
+}
