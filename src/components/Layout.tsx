@@ -1,8 +1,9 @@
 import { useReel } from '@volvo-cars/react-headless';
 import { FC, useEffect, useRef, useState } from 'react';
-// import data from '../../public/api/cars.json';
 import { getCars } from '../services/getCars';
 import { ICarObjectProps } from '../types';
+// import data from '../../public/api/cars.json';
+
 import CarCard from './CarCard';
 import Filter from './Filter';
 import Indicators from './Indicators';
